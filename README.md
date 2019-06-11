@@ -2,7 +2,8 @@
 
 ### Задание 1.
 
-Оптимизироваеть MySql запросы (таблицы находятся в папке [sql](https://github.com/woerr/Mysql-test-task/tree/master/sql)):
+Ускорит выполнение MySql запросов (Устранить причины их медленного выполнения)
+- таблицы находятся в папке [sql](https://github.com/woerr/Mysql-test-task/tree/master/sql):
 
  ```mysql
  SELECT * FROM isometric i JOIN design_drawings dd ON i.iso_code = dd.iso_number;
