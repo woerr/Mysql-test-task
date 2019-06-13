@@ -12,9 +12,9 @@
  ```
  
  ```mysql
- SELECT dd.iso_code,s.member_id,COUNT(*) FROM design_drawings dd
+ SELECT dd.iso_number,s.member_id,COUNT(*) FROM design_drawings dd
    LEFT JOIN specfication s ON s.draw_id = dd.id
- GROUP BY dd.iso_code,s.member_id
+ GROUP BY dd.iso_number,s.member_id
  ```
 
 
